@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title="Pedro Euzebio | Projetos">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Projetos</div>
+    <div class="text-lg w-full mb-5">
+      Essa página lista alguns dos projetos que desenvolvi até o momento da
+      minha jornada como programador.
+    </div>
+  </div>
+  <HorizontalCard
+    title="FSW Barber"
+    img="/post_fswbarber.png"
+    desc="O FSW Barber é um sistema de barbearia na qual é possivel fazer login com o Google, buscar uma barbearia, fazer uma reserva e cancelar a mesma."
+    url="https://fsw-barber-pedroeuzebio.vercel.app/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Talk to Me"
+    img="/post_talktome.png"
+    desc="O Talk to Me é um clone do Google Meet onde é possível entrar em uma sala, criar uma nova sala, digitar no chat e ligar a câmera."
+    url="https://github.com/pedroeuzebioo/talk-to-me/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="FSW Store"
+    img="/post_fswstore.png"
+    desc="Sistema de e-commerce com autenticação via Google e Stripe como método de pagamento. Desenvolvido com as tecnologias mais modernas e requisitadas pelo mercado para uma experiência de e-commerce excepcional."
+    url="https://fsw-store-pedroeuzebio.vercel.app/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="EducaFacilWeb"
+    img="/post_educafacilweb.png"
+    desc="Projeto social e de conclusão de curso técnico em informática. Desenvolvi um site educacional dedicado a auxiliar alunos em seus estudos. A plataforma oferece vídeos em diversas disciplinas, promovendo o aprimoramento acadêmico de forma acessível e interativa."
+    url="https://educafacilweb.vercel.app/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Upload AI"
+    img="/post_uploadai.png"
+    desc="Aplicação que possibilita realizar upload de videos e por meio de IA, criar automaticamente títulos chamativos e descrições com um boa indexação."
+    url="https://github.com/pedroeuzebioo/upload-ai/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Sistema de Atividades Extracurriculares (SAE) do Comércio IFCE"
+    img="/post_saeifce.png"
+    desc="Protótipo do front-end do sistema de atividades extracurriculares do curso de comercio como atividade/tarefa de estágio."
+    url="https://github.com/pedroeuzebioo/sae-ifce/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Shorts Summary"
+    img="/post_shortssummary.png"
+    desc="Aplicação web para criar resumo de vídeos shorts do Youtube utilizando Inteligência Artificial para transcrever o conteúdo do vídeo e realizar o resumo do conteúdo."
+    url="https://github.com/pedroeuzebioo/shorts-summary/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Sistema de Agendamento de Ármarios do IFCE"
+    img="/post_saaifce.png"
+    desc="Protótipo do front-end do sistema de agendamento de armários como atividade/tarefa de estágio."
+    url="https://github.com/pedroeuzebioo/saa-ifce/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Speedy Hamburguer"
+    img="/post_speedyhamburguer.png"
+    desc="projeto colaborativo com colegas de curso desenvolvido para a feira de ciências escolar, redefine lanchonetes virtuais. Explore o cardápio, escolha itens e envie pedidos via WhatsApp, combinando praticidade e simplicidade."
+    url="https://speedyhamburguer.vercel.app/"
+  />
+</BaseLayout>

@@ -1,6 +1,6 @@
 {
-  "name": "pedroeuzebio.com.br",
-  "description": "Olá, tudo bem? Eu sou o Pedro Euzebio, desenvolvedor web. Explore meu portfólio e descubra um pouco sobre mim, minhas tecnologias, projetos e como entrar em contato",
+  "name": "pedroeuzebio.netlify.app",
+  "description": "Olá, tudo bem? Eu sou o Pedro Euzebio, desenvolvedor web. Explore meu portfólio e descubra um pouco sobre mim, projetos e como entrar em contato",
   "type": "module",
   "version": "1.0.0",
   "private": true,

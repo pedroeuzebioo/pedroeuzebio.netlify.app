@@ -3,17 +3,19 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout title="Pedro Euzebio | Sobre mim">
-  <div class="pb-8 mt-5">
-    <div class="text-3xl py-3 font-bold">Sobre mim</div>
+  <div class="pb-8 mt-5 lg:grid lg:grid-cols-2">
+    <div>
+      <div class="text-3xl py-3 font-bold">Sobre mim</div>
 
-    <img
-      src="/avatar.jpg"
-      alt="Foto do Pedro Euzebio"
-      class="max-w-full md:max-w-sm rounded-lg"
-      width="470"
-    />
+      <img
+        src="/avatar.jpg"
+        alt="Foto do Pedro Euzebio"
+        class="max-w-full md:max-w-sm rounded-lg"
+        width="470"
+      />
+    </div>
 
-    <div class="py-8">
+    <div class="py-16">
       <p class="text-lg text-justify">
         Meu nome é Pedro, tenho <strong>17</strong> anos e sou um desenvolvedor web.
         <br />
@@ -22,7 +24,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         Em termos técnicos, possuo proficiência em uma variedade de linguagens e
         ferramentas, incluindo: <i
           >Typescript, Javascript, HTML, CSS, React, Next.js, Tailwind CSS,
-          Java, Spring, Node.js, SQL, Gite muito mais.</i
+          Java, Spring, Node.js, SQL, Git e muito mais.</i
         >
         <br />
         <br />
